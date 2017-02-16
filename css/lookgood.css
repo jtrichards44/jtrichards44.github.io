@@ -1,0 +1,249 @@
+/***************
+General
+***************/
+
+
+/*div info*/
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+
+/*no underline on links*/
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%
+}
+
+h3 {
+    margin: 0 0 1em 0;
+}
+
+
+/***************
+Heading
+***************/
+
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+
+/*logo lined up*/
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    margin: 15px 0;
+    font-size: 2em;
+    font-weight: normal;
+    line-height: 1.8em;
+}
+
+h2 {
+    margin: -5px 0 0;
+    font-size: 1.5;
+    font-weight: normal;
+}
+
+
+/***************
+Navigation
+***************/
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+
+/***************
+Footer
+***************/
+
+footer {
+    font-size: .75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #0000FF;
+}
+
+.social-icon {
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+}
+
+
+/***************
+images specs
+***************/
+
+#gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #0000CD;
+    color: #bdc3c7
+}
+
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 1em;
+    color: #FFFF00;
+}
+
+
+/***************
+Contact
+***************/
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+    color: #0000CD;
+    background-image: url('../images/.png/phone.png');
+}
+
+.contact-info li.mail a {
+    color: #0000CD;
+    background-image: url('../images/.png/mail.png');
+}
+
+.contact-info li.twitter a {
+    color: #0000CD;
+    background-image: url('../images/.png/twitter.png');
+}
+
+
+/***************
+Colors and some fonts
+***************/
+
+
+/*body color blue*/
+
+body {
+    background-color: #FFF;
+    color: #FFFF00;
+}
+
+
+/*matching bright blue*/
+
+header {
+    background: #0000CD;
+    border-color: #FFF;
+}
+
+
+/*black bar*/
+
+nav {
+    background: #000;
+}
+
+
+/*headline color*/
+
+h1,
+h2 {
+    color: #FFFF00;
+    font-family: 'Sigmar One', cursive;
+}
+
+
+/***************
+about specs
+***************/
+
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+
+h3 {
+    color: #0000CD;
+}
+
+#paragraph {
+    color: #0000CD;
+}
+
+
+/*color yellow*/
+
+a {
+    color: #FFFF00;
+    font-family: 'Chewy', cursive;
+    font-size: 1.125em;
+}
+
+
+/*yellow when on page*/
+
+nav a,
+nav a: visited {
+    color: #FFFF00;
+}
+
+
+/*pink when hovered*/
+
+nav a.selected,
+nav a:hover {
+    color: #FF33FF;
+}
