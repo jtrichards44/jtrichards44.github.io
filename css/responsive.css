@@ -1,7 +1,5 @@
 @media screen and (min-width: 480px) {
-    /***************
-  Columns 2
-  ***************/
+    /* Columns 2 */
     #primary {
         width: 70%;
         float: left;
@@ -10,9 +8,7 @@
         width: 20%;
         float: right;
     }
-    /***************
-  Gallery
-  ***************/
+    /* Gallery */
     #gallery li {
         width: 28.333%;
     }
@@ -22,18 +18,14 @@
 }
 
 
-/**************
-Tabs color
-**************/
+/* Tabs color */
 
 nav a {
     color: #808080;
 }
 
 
-/***************
-  About
-  ***************/
+/* About */
 
 .profile-photo {
     float: left;
@@ -48,9 +40,7 @@ nav a {
 }
 
 @media screen and (min-width: 660px) {
-    /***************
-  header
-  ***************/
+    /* header */
     nav {
         background: none;
         float: right;

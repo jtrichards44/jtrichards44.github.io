@@ -1,6 +1,7 @@
-/***************
-General
-***************/
+/* General */
+
+
+/* Flex */
 
 
 /*div info*/
@@ -27,9 +28,7 @@ h3 {
 }
 
 
-/***************
-Heading
-***************/
+/* Heading */
 
 header {
     float: left;
@@ -60,9 +59,7 @@ h2 {
 }
 
 
-/***************
-Navigation
-***************/
+/* Navigation */
 
 nav {
     text-align: center;
@@ -86,9 +83,7 @@ nav a {
 }
 
 
-/***************
-Footer
-***************/
+/* Footer */
 
 footer {
     font-size: 1em;
@@ -106,9 +101,7 @@ footer {
 }
 
 
-/***************
-images specs
-***************/
+/* images specs */
 
 #gallery {
     margin: 0;
@@ -132,9 +125,7 @@ images specs
 }
 
 
-/***************
-Contact
-***************/
+/* Contact */
 
 .contact-info {
     list-style: none;
@@ -173,9 +164,7 @@ Contact
 }
 
 
-/***************
-Colors and some fonts
-***************/
+/* Colors and some fonts */
 
 
 /*body color black*/
@@ -210,9 +199,7 @@ h2 {
 }
 
 
-/***************
-about specs
-***************/
+/* about specs */
 
 .profile-photo {
     display: block;
@@ -254,6 +241,3 @@ nav a.selected,
 nav a:hover {
     color: #0000FF;
 }
-
-
-/*Sticky Footer*/
