@@ -6,7 +6,7 @@ General
 /*div info*/
 
 #wrapper {
-    max-width: 940px;
+    max-width: 94%;
     margin: 0 auto;
     padding: 0 5%;
 }
@@ -91,17 +91,18 @@ Footer
 ***************/
 
 footer {
-    font-size: .75em;
+    font-size: 1em;
     text-align: center;
     clear: both;
     padding-top: 50px;
-    color: #0000FF;
+    color: #000;
+    width: 100%;
 }
 
 .social-icon {
-    height: 20px;
-    width: 20px;
-    margin: 0 5px;
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
 }
 
 
@@ -119,7 +120,7 @@ images specs
     float: left;
     width: 45%;
     margin: 2.5%;
-    background-color: #0000CD;
+    background-color: #FFF;
     color: #bdc3c7
 }
 
@@ -127,7 +128,7 @@ images specs
     margin: 0;
     padding: 5%;
     font-size: 1em;
-    color: #FFFF00;
+    color: #000;
 }
 
 
@@ -152,18 +153,23 @@ Contact
 }
 
 .contact-info li.phone a {
-    color: #0000CD;
+    color: #000;
     background-image: url('../images/.png/phone.png');
 }
 
 .contact-info li.mail a {
-    color: #0000CD;
+    color: #000;
     background-image: url('../images/.png/mail.png');
 }
 
 .contact-info li.twitter a {
-    color: #0000CD;
-    background-image: url('../images/.png/twitter.png');
+    color: #000;
+    background-image: url('../images/twitter-logo.png');
+}
+
+.contact-info li.facebook a {
+    color: #000;
+    background-image: url('../images/facebook-logo.png');
 }
 
 
@@ -172,18 +178,18 @@ Colors and some fonts
 ***************/
 
 
-/*body color blue*/
+/*body color black*/
 
 body {
     background-color: #FFF;
-    color: #FFFF00;
+    color: #000;
 }
 
 
-/*matching bright blue*/
+/*matching grey*/
 
 header {
-    background: #0000CD;
+    background: #808080;
     border-color: #FFF;
 }
 
@@ -199,7 +205,7 @@ nav {
 
 h1,
 h2 {
-    color: #FFFF00;
+    color: #000;
     font-family: 'Sigmar One', cursive;
 }
 
@@ -210,40 +216,44 @@ about specs
 
 .profile-photo {
     display: block;
-    max-width: 150px;
+    max-width: 250px;
     margin: 0 auto 30px;
     border-radius: 100%;
+    padding: 20px;
 }
 
 h3 {
-    color: #0000CD;
+    color: #000;
 }
 
 #paragraph {
-    color: #0000CD;
+    color: #000;
 }
 
 
-/*color yellow*/
+/*color black*/
 
 a {
-    color: #FFFF00;
+    color: #000;
     font-family: 'Chewy', cursive;
     font-size: 1.125em;
 }
 
 
-/*yellow when on page*/
+/*black when on page*/
 
 nav a,
 nav a: visited {
-    color: #FFFF00;
+    color: #000;
 }
 
 
-/*pink when hovered*/
+/*blue when hovered*/
 
 nav a.selected,
 nav a:hover {
-    color: #FF33FF;
+    color: #0000FF;
 }
+
+
+/*Sticky Footer*/
