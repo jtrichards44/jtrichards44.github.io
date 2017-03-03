@@ -6,11 +6,12 @@
 
 /*div info*/
 
-#wrapper {
+
+/*#wrapper {
     max-width: 94%;
     margin: 0 auto;
     padding: 0 5%;
-}
+}*/
 
 
 /*no underline on links*/
@@ -111,8 +112,8 @@ footer {
 
 #gallery li {
     float: left;
-    width: 45%;
-    margin: 2.5%;
+    width: 33.33%;
+    margin: 30px;
     background-color: #FFF;
     color: #bdc3c7
 }
@@ -217,6 +218,10 @@ h3 {
     color: #000;
 }
 
+.parabout {
+    padding-top: 100px;
+}
+
 
 /*color black*/
 
@@ -240,4 +245,29 @@ nav a: visited {
 nav a.selected,
 nav a:hover {
     color: #0000FF;
+}
+
+
+/*flex it up*/
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#sidelogo {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
