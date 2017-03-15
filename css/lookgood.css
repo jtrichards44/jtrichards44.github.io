@@ -28,6 +28,8 @@ header {
 #logo {
     text-align: center;
     margin: 0;
+    text-decoration: none;
+    text-color: black;
 }
 
 h1 {
@@ -200,6 +202,7 @@ h3 {
 
 #paragraph {
     color: #000;
+    text-decoration: none;
 }
 
 .parabout {
