@@ -1,19 +1,3 @@
-/* General */
-
-
-/* Flex */
-
-
-/*div info*/
-
-
-/*#wrapper {
-    max-width: 94%;
-    margin: 0 auto;
-    padding: 0 5%;
-}*/
-
-
 /*no underline on links*/
 
 a {
@@ -128,6 +112,10 @@ footer {
 
 /* Contact */
 
+#primary {
+    padding: 0 0 50px 50px;
+}
+
 .contact-info {
     list-style: none;
     padding: 0;
@@ -136,22 +124,21 @@ footer {
 }
 
 .contact-info a {
-    display: block;
     min-height: 20px;
     background-repeat: no-repeat;
     background-size: 20px 20px;
-    padding: 0 0 0 30px;
-    margin: 0 0 10px;
+    margin-bottom: 5px;
+    padding-left: 50px;
 }
 
 .contact-info li.phone a {
     color: #000;
-    background-image: url('../images/.png/phone.png');
+    background-image: url('../images/phone.png');
 }
 
 .contact-info li.mail a {
     color: #000;
-    background-image: url('../images/.png/mail.png');
+    background-image: url('../images/mail.png');
 }
 
 .contact-info li.twitter a {
@@ -163,9 +150,6 @@ footer {
     color: #000;
     background-image: url('../images/facebook-logo.png');
 }
-
-
-/* Colors and some fonts */
 
 
 /*body color black*/
@@ -219,7 +203,8 @@ h3 {
 }
 
 .parabout {
-    padding-top: 100px;
+    padding-top: 15px;
+    max-width: 75%;
 }
 
 
@@ -252,12 +237,19 @@ nav a:hover {
 
 body {
     display: flex;
+    min-height: 100vh;
     flex-direction: column;
 }
 
 #gallery {
     display: flex;
+    flex: 1;
     flex-flow: row wrap;
+    justify-content: center;
+}
+
+#wrapper {
+    flex: 1;
     justify-content: center;
 }
 
@@ -270,4 +262,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-grow: 2;
+    margin-top: 30px;
 }
