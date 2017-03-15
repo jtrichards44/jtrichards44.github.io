@@ -203,6 +203,7 @@ h3 {
 #paragraph {
     color: #000;
     text-decoration: none;
+    font-size:25px;
 }
 
 .parabout {
@@ -259,6 +260,7 @@ body {
 #sidelogo {
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
 
 footer {
