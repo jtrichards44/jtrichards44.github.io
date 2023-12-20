@@ -4,21 +4,6 @@
  * Licensed under the MIT license
  */
 
-const apiKey = "a0696d604d1c32a765529ba708900269";
-const apiUrl = "https://the-odds-api.com"; // Replace with the actual API endpoint
-
-// Constructing the URL with the API key
-const urlWithApiKey = `${apiUrl}?apiKey=${apiKey}`;
-
-// Making a GET request using fetch
-fetch(urlWithApiKey)
-  .then(response => response.json())
-  .then(data => {
-    console.log("API Response:", data);
-    // Handle the API response data here
-  })
-  .catch(error => console.error("Error:", error));
-
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
 }
