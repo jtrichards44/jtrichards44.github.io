@@ -1,4 +1,40 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Results</title>
+</head>
+<body>
+
+<div id="apiResults"></div>
+
+<script>
+const apiKey = "a0696d604d1c32a765529ba708900269";
+const apiUrl = "https://api.example.com"; // Replace with the actual API endpoint
+
+const urlWithApiKey = `${apiUrl}?apiKey=${apiKey}`;
+
+fetch(urlWithApiKey)
+  .then(response => response.json())
+  .then(data => {
+    // Handle the API response data here
+    displayResults(data);
+  })
+  .catch(error => console.error("Error:", error));
+
+function displayResults(data) {
+  // Access the DOM element where you want to display the results
+  const resultsContainer = document.getElementById("apiResults");
+
+  // Create or update HTML content based on the API response
+  resultsContainer.innerHTML = `<p>${JSON.stringify(data)}</p>`;
+}
+</script>
+
+</body>
+</html>
+
 <html>
 
 <head>
