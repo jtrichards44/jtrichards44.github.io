@@ -11,28 +11,31 @@
 
 <script>
 const apiKey = "a0696d604d1c32a765529ba708900269";
-const apiUrl = "a0696d604d1c32a765529ba708900269"; // Replace with the actual API endpoint
+const apiUrl = "https://the-odds-api.com"; // Replace with the actual API endpoint
 
 const urlWithApiKey = `${apiUrl}?apiKey=${apiKey}`;
 
 fetch(urlWithApiKey)
-  .then(response => response.json())
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    return response.json();
+  })
   .then(data => {
-    // Handle the API response data here
     displayResults(data);
   })
-  .catch(error => console.error("Error:", error));
+  .catch(error => {
+    console.error("Error:", error);
+    document.getElementById("apiResults").innerHTML = "Error fetching data from the API.";
+  });
 
 function displayResults(data) {
-  // Access the DOM element where you want to display the results
   const resultsContainer = document.getElementById("apiResults");
-
-  // Create or update HTML content based on the API response
   resultsContainer.innerHTML = `<p>${JSON.stringify(data)}</p>`;
 }
 </script>
 
 </body>
 </html>
-
 
