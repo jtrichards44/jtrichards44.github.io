@@ -5,7 +5,7 @@
  */
 
 const apiKey = "a0696d604d1c32a765529ba708900269";
-const apiUrl = "https://api.example.com"; // Replace with the actual API endpoint
+const apiUrl = "a0696d604d1c32a765529ba708900269"; // Replace with the actual API endpoint
 
 // Constructing the URL with the API key
 const urlWithApiKey = `${apiUrl}?apiKey=${apiKey}`;
